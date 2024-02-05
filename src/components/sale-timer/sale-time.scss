@@ -1,0 +1,40 @@
+.timer {
+    margin-top: 17px;
+
+    width: 100%;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    &__icon {
+        width: 23px;
+        height: 23px;
+    }
+
+    &__text {
+        color: #f65d81;
+        font-family: 'Gilroy-Medium';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 130%;
+    }
+
+    &__time {
+        display: flex;
+        gap: 9px;
+
+        color: rgb(246, 93, 129);
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 110%;
+    }
+}

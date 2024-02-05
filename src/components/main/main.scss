@@ -1,0 +1,123 @@
+.main {
+    position: relative;
+    border-radius: 0 0 30px 30px;
+    background-color: #0b0b0b;
+    padding: 40px 10px 10px;
+
+    &__bg-img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Neuzeit Grotesk, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 110%;
+    }
+
+    &__subtitle {
+        margin-top: 4px;
+
+        color: rgb(255, 255, 255);
+        font-family: 'Gilroy-Regular';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__price {
+        margin-top: 20px;
+        width: fit-content;
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0 12px;
+
+        border: 1px solid #ffffff59;
+        border-radius: 30px;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        background: linear-gradient(
+            180deg,
+            rgba(11, 11, 11, 0.4) 1.014%,
+            rgba(11, 11, 11, 0) 98.976%
+        );
+    }
+
+    &__qualities {
+        margin-top: 188px;
+        display: flex;
+        justify-content: space-between;
+        gap: 4px;
+    }
+}
+
+.price {
+    &__old {
+        color: #ffffffcc;
+        font-family: Neuzeit Grotesk;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: line-through;
+        text-transform: capitalize;
+    }
+    &__new {
+        color: #ffffff;
+        font-family: Neuzeit Grotesk;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.qualities {
+    &__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__card {
+        width: fit-content;
+
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 10px 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.1) 0.163%,
+            rgba(255, 255, 255, 0) 88.856%
+        );
+    }
+
+    &__text {
+        max-width: 112px;
+        width: 100%;
+
+        color: #ffffff;
+        font-family: 'Gilroy-Regular';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}

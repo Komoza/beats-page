@@ -1,0 +1,95 @@
+.characteristic {
+    margin-top: 24px;
+    width: 100%;
+    padding: 15px;
+
+    border-radius: 30px;
+    background-color: #f7f7f7;
+
+    &__trial-music,
+    &__apple-store {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__apple-store {
+        margin-top: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(220, 220, 220);
+    }
+
+    &__trial-music-text,
+    &__apple-store-text {
+        color: #282828;
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 110%;
+        text-transform: uppercase;
+    }
+
+    &____apple-music-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__title-wrap {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    &__description {
+        color: #282828cc;
+        font-family: 'Gilroy-Regular';
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .properties {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+.properties {
+    &__title {
+        color: #282828;
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 110%;
+        text-transform: uppercase;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__str {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__key {
+        width: 160px;
+        color: #282828;
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__value {
+        width: 160px;
+        color: #282828cc;
+        font-family: 'Gilroy-Regular';
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

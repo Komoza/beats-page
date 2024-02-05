@@ -1,0 +1,52 @@
+.services {
+    margin-top: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &__card {
+        padding: 15px;
+        border: 1px solid #626262;
+        border-radius: 30px;
+        backdrop-filter: blur(15px);
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    &__title {
+        color: #282828;
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        border: 0;
+        background: none;
+    }
+
+    &__description {
+        margin-top: 21px;
+        color: #282828cc;
+        font-family: 'Gilroy-Regular';
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

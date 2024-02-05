@@ -1,0 +1,26 @@
+<svg width="41.000031" height="41.000000" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_111">
+			<rect id="Icons" width="11.000000" height="24.000000" transform="translate(14.999969 8.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_2001_709_0" x1="7.576714" y1="39.253101" x2="10.294704" y2="6.285525" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#0B0B0B"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_2001_709_1" x1="34.166683" y1="4.000003" x2="25.666677" y2="40.500004" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.701961"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Icon" rx="20.000000" width="40.000000" height="40.000000" transform="translate(0.500000 0.500000)" fill="url(#paint_linear_2001_709_0)" fill-opacity="0.100000"/>
+	<rect id="Icons/Icon" width="11.000000" height="24.000000" transform="translate(14.999969 8.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Icons" width="11.000000" height="24.000000" transform="translate(14.999969 8.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_111)">
+		<path id="Vector" d="M18.3521 8.73779C18.2873 8.88574 18.2224 9.30127 18.2224 9.67725L18.2224 10.3613L17.004 10.3613C15.8892 10.3613 15.7337 10.3882 15.4096 10.6836L15.0467 11.0054L15.0077 21.1895C14.9818 28.6494 15.0207 31.4536 15.1244 31.7354C15.4355 32.5 15.3966 32.5 20.5946 32.5L25.3648 32.5L25.6759 32.1514L26 31.7891L26 21.4038L26 11.019L25.6629 10.6968C25.3648 10.4019 25.1833 10.3613 24.0686 10.3345L22.8241 10.2944L22.7593 9.42236L22.6945 8.55029L20.5946 8.50977C18.6243 8.48291 18.4817 8.49658 18.3521 8.73779ZM22.3056 9.62354L22.3056 10.2944L20.5298 10.3345L18.7409 10.375L18.7409 9.71729C18.7409 9.35498 18.7798 9.01953 18.8317 8.96582C18.8835 8.92578 19.6872 8.89893 20.6076 8.9126L22.3056 8.95264L22.3056 9.62354ZM25.4296 11.0859C25.5852 11.314 25.6111 12.9375 25.6111 21.4443C25.6111 32.5806 25.6629 31.8696 24.7945 32.0303C24.5611 32.0708 22.4742 32.0977 20.1539 32.0708C16.8095 32.0439 15.8892 31.9902 15.7207 31.8428C15.5133 31.6816 15.5003 30.7827 15.5003 21.4844C15.5003 11.4214 15.5003 11.3008 15.7596 11.0322C16.0188 10.7642 16.1485 10.7505 20.6335 10.791C25.0278 10.8311 25.2481 10.8442 25.4296 11.0859Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M17 21.5L17 30.5L20.5 30.4736L24 30.4336L24 21.5L24 12.5664L20.5 12.5264L17 12.5L17 21.5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<rect id="Icon" rx="20.000000" width="40.000000" height="40.000000" transform="translate(0.500000 0.500000)" stroke="url(#paint_linear_2001_709_1)" stroke-opacity="0.500000" stroke-width="1.000000"/>
+</svg>

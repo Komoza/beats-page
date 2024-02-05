@@ -1,0 +1,19 @@
+.promo {
+    width: 100%;
+    background: linear-gradient(
+        106.17deg,
+        rgb(105, 177, 201) 0.132%,
+        rgb(96, 129, 195) 50.675%,
+        rgb(85, 88, 175) 99.946%
+    );
+    padding: 10px 0;
+
+    &__text {
+        color: #fff;
+        font-family: 'Gilroy-SemiBold', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 120%;
+        text-align: center;
+    }
+}
